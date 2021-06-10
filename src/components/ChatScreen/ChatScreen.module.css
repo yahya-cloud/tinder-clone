@@ -1,0 +1,58 @@
+.message ,.UserMessage{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.message  > p {
+    margin-left: 10px;
+    background-color: lightgray;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.UserMessage > p {
+    margin-left: auto;
+    color: #fff;
+    background-color: #29b3cd;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+
+.infoText{
+    text-align: center;
+    color: rgb(148, 148, 148);
+    font-size: 1.1rem;
+}
+
+.messageContainer{
+    margin-top: 40px;
+}
+
+.inputContainer{
+    display: flex;
+    align-items: center;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    border-top: 1px solid lightgray;
+    
+}
+
+.input{
+    flex: 1;
+    padding: 15px;
+    border: none;
+}
+
+
+.inputButton{
+    margin-right: 10px;
+    border: none;
+    background-color: #fff;
+    font-weight: bolder;
+    color: #fe3d71;    
+    cursor: pointer;
+}
+
